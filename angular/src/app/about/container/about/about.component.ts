@@ -13,7 +13,7 @@ export class AboutComponent implements OnInit {
 
   userAgent = window.navigator.userAgent;
 
-  async ngOnInit(): Promise<void> {
+  ngOnInit(): void {
     this.deviceInfo.set(this.userAgent);
   }
 }
